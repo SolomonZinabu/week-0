@@ -4,7 +4,7 @@ import pandas as pd
 from utils.utils import summarize_data, data_quality_check, plot_time_series_all, clean_data
 
 def main():
-    st.title("Exploratory Data Analysis (EDA) App")
+    st.title("Exploratory Data Analysis (EDA) App - By Solomon Zinabu ")
 
     # File upload
     uploaded_files = st.file_uploader("Upload CSV files", accept_multiple_files=True)
